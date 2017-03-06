@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<scene>
+	<resolution width= "1280" height= "720" />
+	<ambient-light r= "0.1" g= "0.1" b= "0.1" />
+	<camera>
+		<position x= "0" y= "0" z= "0" />
+		<direction x= "0" y= "0" z= "0" />
+	</camera>
+	<textures nb= "1" >
+		<texture file= "textures/terre.bmp" />
+	</textures>
+	<materials nb= "1" >
+		<material>
+			<color r= "1" g= "1" b= "1" />
+			<texture texture= "1" offx= "600" offy= "0" coefx= "1.0" coefy= "1.0" />
+			<brightness> 10 </brightness>
+			<reflection> 0 </reflection>
+			<refraction> 0 </refraction>
+			<transparency> 0 </transparency>
+		</material>
+	</materials>
+	<objects nb= "1" >
+		<object>
+			<type> sphere </type>
+			<position x= "0" y= "0" z= "100" />
+			<direction x= "0" y= "0" z= "0" />
+			<size> 40 </size>
+			<material> 1 </material>
+		</object>
+	</objects>
+	<lights nb= "1" >
+		<light>
+			<position x= "100" y= "60" z= "-200" />
+			<color r= "1" g= "1" b= "1" />
+		</light>
+	</lights>
+</scene>
