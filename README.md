@@ -1,5 +1,5 @@
 # raytracer
-A 3D game using the raycasting.
+Complete version of a raytracer.
 
 ![Alt text](http://i.imgur.com/5VT6AWw.png "")
 
